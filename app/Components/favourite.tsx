@@ -26,7 +26,7 @@ const Favourite = () => {
     <div className='m-20 relative flex justify-end items-end md:justify-start md:items-end'>
         <div className="w-20 h-4 md:ml-56 bg-yellow-400 rounded-t-[40%]  rounded-r-[50%]   transform scale-x-150  ">
         </div>
-        <h1 className="text-4xl font-bold text-center   absolute">Young’s Favourite</h1>
+        <h1 className="text-4xl font-bold text-center   absolute">Young&#39;s Favourite</h1>
 
     </div>
      <div className='grid grid-cols-1 md:grid-cols-2 place-content-center justify-between h-auto px-5 '>

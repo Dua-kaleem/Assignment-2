@@ -1,3 +1,5 @@
+
+import Image from "next/image";
 const products = [
   {
     id: 1,
@@ -36,7 +38,7 @@ export default function NewArrivals() {
             key={product.id}
            
           >
-            <img
+            <Image
               src={product.imageUrl}
               alt={product.name}
               className="w-[80%] h-auto object-cover mx-12 rounded-md flex place-content-center "
@@ -44,7 +46,7 @@ export default function NewArrivals() {
             />
             <div className="inline-flex ml-12  items-center" >
             <h3 className="text-xl font-medium mt-4 pe-32 ">{product.name}</h3>
-            <img
+            <Image
               src={product.exploreArrow}
               alt={product.name}mx-12 rounded-md 
                className="w-[29-px] h-5 mt-6"

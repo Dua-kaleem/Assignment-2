@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
+
 const MobilleApp = () => {
   return (
     <div>
@@ -8,18 +9,16 @@ const MobilleApp = () => {
              <div className='w-[407px] h-[282] bg-white mt-20 md:pl-40 ' >
                        <div className='md:w-[500px]'>
                         <h3 className='text-4xl md:text-5xl font-extrabold text-center md:text-left'>DOWNLOAD APP & GET THE VOUCHER!</h3>
-                        <p className='mt-4 text-center  text-2xl md:mt-7 md:text-left '>Get 30% off for first transaction
-                             using
-                        Rondovision mobile app for now.</p>
+                        <p className='mt-4 text-center  text-2xl md:mt-7 md:text-left '>Get 30% off for first transaction using Rondovision mobile app for now.</p>
                        </div>
                        <div className='flex md:mt-2 mb-16 mt-6 pl-5'>
-                       <img
+                       <Image
             src="/images/google.png"
             alt="image"
       className='w-[159px] h-[50px] mr-9'
           />
 
-                      <img
+                      <Image
             src="/images/apple.png"
             alt="image"
          className='w-[159px] h-[50px]'
