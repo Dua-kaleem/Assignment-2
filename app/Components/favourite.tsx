@@ -33,7 +33,7 @@ const Favourite = () => {
      <div className='grid grid-cols-1 md:grid-cols-2 place-content-center justify-between h-auto px-5 '>
       {favourite.map((favourites) => (
           <div key={favourites.id}>
-            <Image src={favourites.imageUrl} 
+         <Image src={favourites.imageUrl} 
             alt={favourites.name}
             className="md:w-[90%] h-auto object-cover md:mx-12 mx:6  flex place-content-center rounded-2xl shadow-lg shadow-slate-500 " />
             <div className='flex justify-between mt-5 mb-2 md:pl-14 md:w-[40rem] hover:text-yellow-400'>

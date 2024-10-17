@@ -10,7 +10,9 @@ const Sale = () => {
         style={{ backgroundImage: "url('/images/bg.png')" }}
       >
         <div className="flex flex-col md:flex-row items-center justify-center ">
-          <Image
+        import Image from 'next/image';
+
+        <Image
             className="w-[90%] md:w-[70%] h-auto md:h-[90vh] object-cover"
             src="/images/image 12.png"
             alt="imag"

@@ -38,17 +38,18 @@ export default function NewArrivals() {
             key={product.id}
            
           >
-            <Image
+        <Image
               src={product.imageUrl}
               alt={product.name}
-              className="w-[80%] h-auto object-cover mx-12 rounded-md flex place-content-center "
-             
-            />
+              className="w-[80%] h-auto object-cover mx-12 rounded-md flex place-content-center "/>
+
             <div className="inline-flex ml-12  items-center" >
             <h3 className="text-xl font-medium mt-4 pe-32 ">{product.name}</h3>
             <Image
               src={product.exploreArrow}
               alt={product.name}mx-12 rounded-md 
+              width={29}
+              height={5}
                className="w-[29-px] h-5 mt-6"
                 
             />

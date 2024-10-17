@@ -39,8 +39,10 @@ const MobilleApp = () => {
      
       <div className='w-[237px] h-[229px] rounded-full bg-[#FFFFFF] border-[rgba(239,236,235,0.82)] border-2 flex justify-center items-center'> <div className='absolute'>
           <Image
-            src="/images/Mobile App.png"
+            src="/images/Mobile app.png"
             alt="image"
+            width={280}
+            height={520}
             className='w-[280px] h-[520px]' 
           />
         </div>
