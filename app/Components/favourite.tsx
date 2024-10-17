@@ -1,5 +1,6 @@
 
 import React from 'react'
+import Image from 'next/image'
 
 const favourite =[
    {
@@ -32,13 +33,15 @@ const Favourite = () => {
      <div className='grid grid-cols-1 md:grid-cols-2 place-content-center justify-between h-auto px-5 '>
       {favourite.map((favourites) => (
           <div key={favourites.id}>
-            <img src={favourites.imageUrl} 
+            <Image src={favourites.imageUrl} 
             alt={favourites.name}
             className="md:w-[90%] h-auto object-cover md:mx-12 mx:6  flex place-content-center rounded-2xl shadow-lg shadow-slate-500 " />
             <div className='flex justify-between mt-5 mb-2 md:pl-14 md:w-[40rem] hover:text-yellow-400'>
               <h3 className='text-2xl font-medium '>{favourites.name}</h3>
-              <img src={favourites.exploreArrow} 
-              alt="Arrow" 
+              <Image src={favourites.exploreArrow} 
+              alt="Arrow"
+               width={34}
+               height={24}
               />
             </div>
             <p className=' mb-4 text-lg text-gray-500 md:pl-14 hover:text-blue-400'>{favourites.title}</p>

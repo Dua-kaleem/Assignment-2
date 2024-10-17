@@ -15,12 +15,16 @@ const MobilleApp = () => {
                        <Image
             src="/images/google.png"
             alt="image"
+            width={159}
+            height={50}
       className='w-[159px] h-[50px] mr-9'
           />
 
                       <Image
             src="/images/apple.png"
             alt="image"
+            width={159}
+            height={50}
          className='w-[159px] h-[50px]'
           />
                        </div>
@@ -34,10 +38,10 @@ const MobilleApp = () => {
     <div className='w-[337px] h-[329px] rounded-full bg-[#FFFFFF] border-[rgba(239,236,235,0.82)] border-2 flex justify-center items-center'>
      
       <div className='w-[237px] h-[229px] rounded-full bg-[#FFFFFF] border-[rgba(239,236,235,0.82)] border-2 flex justify-center items-center'> <div className='absolute'>
-          <img
+          <Image
             src="/images/Mobile App.png"
             alt="image"
-            className='w-[280px] h-[520px]'  // Adjust the size of the image accordingly
+            className='w-[280px] h-[520px]' 
           />
         </div>
       </div>

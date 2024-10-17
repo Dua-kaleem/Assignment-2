@@ -11,7 +11,7 @@ const Hero = () => {
         <div className='flex flex-col items-center md:items-start  md:mb-3  mx-4 md:mx-11 '>
           <div className="flex flex-col space-y-6 md:space-y-10 md:mb-6  md:mt-8">
             <h1 className="text-5xl md:text-6xl font-extrabold text-center md:text-left">
-              <span className="bg-white px-4 md:px-11 mb-6 inline-block">LET'S</span> 
+              <span className="bg-white px-4 md:px-11 mb-6 inline-block">LET&#39;S</span> 
               <span className="block mb-6">EXPLORE</span>
               <span className="block mb-6">UNIQUE</span>
               <span className="bg-yellow-400 px-2 inline-block">CLOTHES.</span>
